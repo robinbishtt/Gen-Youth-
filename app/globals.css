@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    /* Updated color system for Gen Youth wellness platform */
+    --background: 84 8% 84%; /* #D6D7D2 sage green */
+    --foreground: 0 0% 100%; /* white */
+    --card: 120 60% 97%; /* #f0fdf4 light sage */
+    --card-foreground: 215 25% 27%; /* #374151 dark gray */
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 215 25% 27%; /* #374151 dark gray */
+    --primary: 120 100% 6%; /* #0E300F deep forest green */
+    --primary-foreground: 0 0% 100%; /* white */
+    --secondary: 120 60% 97%; /* #f0fdf4 light sage */
+    --secondary-foreground: 120 100% 6%; /* #0E300F deep forest green */
+    --muted: 120 60% 97%; /* #f0fdf4 light sage */
+    --muted-foreground: 215 25% 27%; /* #374151 dark gray */
+    --accent: 84 8% 84%; /* #D6D7D2 sage green */
+    --accent-foreground: 120 100% 6%; /* #0E300F deep forest green */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 25% 27%; /* #374151 dark gray */
+    --input: 0 0% 100%; /* white */
+    --ring: 120 100% 6%; /* #0E300F deep forest green */
+    --chart-1: 120 100% 6%;
+    --chart-2: 84 8% 84%;
+    --chart-3: 120 60% 97%;
+    --chart-4: 215 25% 27%;
+    --chart-5: 0 0% 100%;
+    --radius: 0.5rem;
+    --sidebar-background: 120 60% 97%;
+    --sidebar-foreground: 215 25% 27%;
+    --sidebar-primary: 120 100% 6%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 84 8% 84%;
+    --sidebar-accent-foreground: 120 100% 6%;
+    --sidebar-border: 215 25% 27%;
+    --sidebar-ring: 120 100% 6%;
+  }
+  .dark {
+    /* Dark mode with wellness-focused colors */
+    --background: 120 100% 6%; /* #0E300F deep forest green */
+    --foreground: 0 0% 100%; /* white */
+    --card: 120 50% 10%; /* darker forest green */
+    --card-foreground: 0 0% 100%; /* white */
+    --popover: 120 50% 10%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 84 8% 84%; /* #D6D7D2 sage green */
+    --primary-foreground: 120 100% 6%; /* #0E300F deep forest green */
+    --secondary: 120 50% 15%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 120 50% 15%;
+    --muted-foreground: 84 8% 84%;
+    --accent: 120 50% 15%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 120 50% 15%;
+    --input: 120 50% 15%;
+    --ring: 84 8% 84%;
+    --chart-1: 84 8% 84%;
+    --chart-2: 120 60% 97%;
+    --chart-3: 0 0% 100%;
+    --chart-4: 215 25% 27%;
+    --chart-5: 120 100% 6%;
+    --sidebar-background: 120 100% 6%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 84 8% 84%;
+    --sidebar-primary-foreground: 120 100% 6%;
+    --sidebar-accent: 120 50% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 120 50% 15%;
+    --sidebar-ring: 84 8% 84%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
