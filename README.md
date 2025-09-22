@@ -1,10 +1,3 @@
-# Ai Chat Interface
-
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/fashioninfluences-projects/v0-ai-chat-interface)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/hYiNbKL9BhB)
-
 ## Overview
 
 This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
